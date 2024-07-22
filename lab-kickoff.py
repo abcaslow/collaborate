@@ -55,3 +55,5 @@ def nouppercase (object_name):
 def underscoreinthemiddle (object_name):
    return [i for i in dir(object_name) if re.match(r'^[a-z]+(_[a-z]+)?$', i) and re.match(r'^\w+_\w+?$', i)]
 
+ticket1='[i for i in listofstrs]'
+ticket2= 'for i in listofdicts: print (i[0])'

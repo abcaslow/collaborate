@@ -1,0 +1,2 @@
+show ip inte brief
+show arp | begin Address
